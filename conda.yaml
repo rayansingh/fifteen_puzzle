@@ -1,0 +1,12 @@
+name: fifteen_puzzle
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - pillow
+  - matplotlib
+  - numpy
+  - heapq
